@@ -1,0 +1,12 @@
+fun plus(a:int,b) = a+b;
+
+plus (5,8);
+
+(* curried function - no parentheses around parameters *)
+fun cplus a:int b = a+b;
+
+cplus 5 8;
+
+val add5 = cplus 5;
+
+add5 9;
